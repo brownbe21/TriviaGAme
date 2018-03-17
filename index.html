@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link href ="assets/css/style.css" rel ="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="Jumbotron text-center">
+            <h1>TRIVIA GAME</h1>
+
+        <div class="btnContainer">
+            <button type="button" class="btn btn-default btn-lg btn-primary startBtn">START</button>
+        </div>
+
+
+        <form id = "trivia" name = "trivia">
+
+
+        <p>What is largest mammal on earth?</p>
+            <input id ="textbox" type = "text" name = "question1">
+
+        <p>Who was the first President of the United states?</p>
+            <input id ="textbox" type= "text" name = "question 2">
+
+
+        <P>Who has the highest grossing concert tour?</P>
+            <input type = "radio" id = "mc" name = "question3" value = "Michael Jackson">Michael Jackson<br>
+            <input type = "radio" id = "mc" name = "question3" value = "U2">U2<br>
+            <input type = "radio" id = "mc" name = "question3" value = "Madonna">Madonna<br>
+            <input type = "radio" id = "mc" name = "question3" value = "Rolling Stones">Rolling Stones<br>
+
+            <input id = "button" type = "button" value = "I'm done!" onclick = "check();">
+
+
+        </form>
+
+
+<div id = "after_submit">
+    <p id = "message"></p>
+    <p id = "number_correct"></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</html>
+</body>

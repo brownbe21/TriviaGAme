@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-family: "Microsoft Himalaya";
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+
+    }
+
+#trivia {
+    margin-right: 20px;
+    background: red;
+    padding: 10px 20px 20px 20px;
+    width: 600px;
+    border-radius: 20px;
+    float: left;
+}
+#after_submit {
+    visibility: hidden;
+}
